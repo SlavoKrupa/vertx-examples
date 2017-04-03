@@ -12,19 +12,16 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-core</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-mongo-client</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>examples-utils</artifactId>
-      <version>${project.version}</version>
       <optional>true</optional>
     </dependency>
   </dependencies>

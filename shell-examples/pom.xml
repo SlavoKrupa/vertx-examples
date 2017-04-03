@@ -13,27 +13,23 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-shell</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <!-- Dropwizard provides the metrics-ls and metrics-info commands -->
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-dropwizard-metrics</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <!-- Used for deploying service:io.vertx.ext.shell -->
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-service-factory</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-auth-shiro</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
@@ -46,7 +42,6 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>examples-utils</artifactId>
-      <version>${project.version}</version>
       <optional>true</optional>
     </dependency>
 

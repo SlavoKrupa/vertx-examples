@@ -10,17 +10,14 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-mail-client</artifactId>
-      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-mail-service</artifactId>
-      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>examples-utils</artifactId>
-      <version>${project.version}</version>
       <optional>true</optional>
     </dependency>
     <dependency>

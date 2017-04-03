@@ -17,14 +17,12 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-core</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <!-- Add hazelcast deps if you want it clusterable -->
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-hazelcast</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
   </dependencies>

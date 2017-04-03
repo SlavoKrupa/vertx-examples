@@ -39,19 +39,16 @@
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-core</artifactId>
-        <version>${project.version}</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-hazelcast</artifactId>
-        <version>${project.version}</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-jca-api</artifactId>
-        <version>${project.version}</version>
         <scope>provided</scope>
       </dependency>
       <dependency>

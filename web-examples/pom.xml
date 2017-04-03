@@ -7,19 +7,22 @@
   <groupId>io.vertx</groupId>
   <artifactId>web-examples</artifactId>
   <version>3.4.1</version>
-
+  <parent>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-examples</artifactId>
+    <version>3.4.1</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
   <dependencies>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-core</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
@@ -31,37 +34,31 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-mongo-client</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-mongo-embedded-db</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-auth-shiro</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-auth-jdbc</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-jdbc-client</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-auth-jwt</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
@@ -74,13 +71,11 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-dropwizard-metrics</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-hazelcast</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
@@ -92,37 +87,31 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web-templ-handlebars</artifactId>
-      <version>${project.version}</version>
       <classifier>shaded</classifier>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web-templ-jade</artifactId>
-      <version>${project.version}</version>
       <classifier>shaded</classifier>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web-templ-mvel</artifactId>
-      <version>${project.version}</version>
       <classifier>shaded</classifier>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web-templ-thymeleaf</artifactId>
-      <version>${project.version}</version>
       <classifier>shaded</classifier>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web-templ-freemarker</artifactId>
-      <version>${project.version}</version>
       <classifier>shaded</classifier>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web-templ-pebble</artifactId>
-      <version>${project.version}</version>
       <classifier>shaded</classifier>
     </dependency>
 
